@@ -1,0 +1,37 @@
+{
+  "id": "4242934",
+  "name": "webpack",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5387866",
+      "name": "加号_o",
+      "font_class": "jiahao_o",
+      "unicode": "eb78",
+      "unicode_decimal": 60280
+    },
+    {
+      "icon_id": "37191590",
+      "name": "常速",
+      "font_class": "changsu",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "37191592",
+      "name": "彩电摄像机",
+      "font_class": "caidianshexiangji",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "37191593",
+      "name": "彩色录像",
+      "font_class": "caiseluxiang",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    }
+  ]
+}
