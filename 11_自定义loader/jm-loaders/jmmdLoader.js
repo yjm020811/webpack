@@ -5,7 +5,7 @@ module.exports = function (content) {
     // 让markdown将语法高亮
     marked.setOptions({
         highlight: function (code, lang) {
-            return hljs.highlight(lang, code).value
+            return hljs.highlight(lang, code).value;
         }
     })
 

@@ -3,6 +3,9 @@ pre {
   font-size: 18px;
   padding: 15px;
   margin: 20px;
+  .language-js {
+    color: yellow;
+  }
 }
 
 .language-html {
