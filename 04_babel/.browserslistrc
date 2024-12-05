@@ -1,3 +1,4 @@
->1%
-last 2 version
-not dead
+> 1%        # 支持市场占有率大于1%的浏览器
+last 2 versions  # 支持每个浏览器的最近两个版本
+not dead    # 排除不再维护的浏览器
+ie 11       # 明确支持 IE11

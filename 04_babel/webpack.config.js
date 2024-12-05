@@ -16,21 +16,12 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: [
-          {
-            loader: "babel-loader",
-            options: {
-              presets: [
-                [
-                  "@babel/preset-env",
-                  {
-                    // targets: ["chrome 88"] // 建议写在.browserslistrc
-                  }
-                ]
-              ]
-            }
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"] // 根据.browserslistrc里面的配置进行对应浏览器的适配
           }
-        ]
+        }
       }
     ]
   }
