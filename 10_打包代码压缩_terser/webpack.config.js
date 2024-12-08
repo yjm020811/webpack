@@ -16,7 +16,7 @@ console.log(
 );
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   // 配置的入口
   entry: "./src/index.js",
   // 配置的出口
